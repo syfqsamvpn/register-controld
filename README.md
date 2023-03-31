@@ -16,7 +16,9 @@ apt-get update && apt-get upgrade -y
 ```html
 bash <(curl --sSL https://raw.githubusercontent.com/syfqsamvpn/register-controld/main/main.sh) --email "email@youremail.com" --password "your.password"
 ```
-
+```html
+Change "email@youremail.com" and "your.password" to your credentials
+```
 
 ## HELP
 ```html

@@ -12,7 +12,13 @@
 apt-get update && apt-get upgrade -y
 ```
 
-## HOW TO USE
+## USAGE
+```html
+bash <(curl --sSL https://raw.githubusercontent.com/syfqsamvpn/register-controld/main/main.sh) --email "email@youremail.com" --password "your.password"
+```
+
+
+## HELP
 ```html
 Options:
   -e, --email EMAIL   Email address to use for login

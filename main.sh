@@ -126,7 +126,7 @@ addIP=$(curl -Ss --request POST \
     --url "https://api.controld.com/access?device_id=${deviceId}" \
     --header "authorization: ${sessionID}" \
     --header 'content-type: application/json' \
-    --data "{\"ips\":[\"$(echo $ips | tr ',' ' ')\"]}" | grep -ic "1 IPs added")
+    --data "{\"ips\":[\"${ips}\"]}" | grep -ic "1 IPs added")
 
 if [ $addIP -eq 1 ]; then
   echo -e "${GREEN}Success: Added IP(s) ${ips} to device ${deviceId}${NC}"

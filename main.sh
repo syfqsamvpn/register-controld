@@ -12,7 +12,7 @@ Options:
   -e, --email EMAIL   Email address to use for login
   -p, --password PASS Password to use for login
   -d, --device DEVICE Device ID to add IP to (default: first device)
-  -i, --ips IPS       Comma-separated list of IP addresses to add
+  -i, --ips IPS       Add Specific IP (default: Server IP)
   -t, --ttl TTL       Time-to-live for the IP addresses (default: 1m)
   -h, --help          Show this help message and exit
 EOF
